@@ -7,9 +7,11 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'home': "url('./Images/Rectangle1.png')",
-        'fram2' : "url('./Images/Frame2.png')",
-        'substract' : "url('./Images/Subtract.png')"
+        'home': "url('./assts/images/images/Rectangle1.png')",
+        'fram2' : "url('./assts/images/images/Frame2.png')",
+        'substract' : "url('./assts/images/images/Subtract.png')",
+        'footer':"url('./assts/images/images/Footer.png')",
+        'servicesbg' : "url('./assts/images/images/ServicesBG.png')"
       }
     },
   },

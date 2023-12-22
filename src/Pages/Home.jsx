@@ -1,12 +1,6 @@
-import React from 'react'
-import Vector from '../Images/Vector.svg'
-import Vectorb from '../Images/Vectorb.svg'
-import CallIcon from '../Images/CallIcon.svg'
-import Photo from '../Images/Photo.jpg'
-import Buffer from '../Images/Buffer.svg'
-import Bigcommerce from '../Images/Bigcommerce.svg'
-import Uon from '../Images/Uon.svg'
-import L4 from '../Images/L4.svg'
+import React from 'react';
+import { images } from '../assts/images/index';
+
 
 const Home = () => {
     return (
@@ -31,7 +25,7 @@ const Home = () => {
                                 <div className="text-center text-lg font-semibold  leading-[22.5px] text-white">
                                     Get Started
                                 </div>
-                                <img src={Vector}
+                                <img src={images.Vector}
                                     className="w-4 mt-0.75"
                                 ></img>
                             </button>
@@ -52,7 +46,7 @@ const Home = () => {
                         <div className="flex  flex-row justify-center mt-3 text-center hover:cursor-pointer">
                             Read more
                             <img className="w-2.5 ml-0.5 mt-1"
-                                src={Vectorb}>
+                                src={images.Vectorb}>
                             </img>
                         </div>
                     </div>
@@ -67,7 +61,7 @@ const Home = () => {
                         <div className="flex  flex-row justify-center mt-3 text-center hover:cursor-pointer">
                             Read more
                             <img className="w-2.5 ml-0.5 mt-1"
-                                src={Vectorb}>
+                                src={images.Vectorb}>
                             </img>
                         </div>
                     </div>
@@ -82,7 +76,7 @@ const Home = () => {
                         <div className="flex  flex-row justify-center mt-3 text-center hover:cursor-pointer">
                             Read more
                             <img className="w-2.5 ml-0.5 mt-1"
-                                src={Vectorb}>
+                                src={images.Vectorb}>
                             </img>
                         </div>
                     </div>
@@ -103,7 +97,7 @@ const Home = () => {
                                     </div>
                                     <div className="flex-col">
                                         <div className="w-56 h-[60px] flex justify-center text-left items-center text-white font-['Jost']  mt-5">
-                                            <img className="h-[60px] w-[60px] text-left" src={CallIcon}></img>
+                                            <img className="h-[60px] w-[60px] text-left" src={images.CallIcon}></img>
                                             <div className="w-2/3 ml-3 ">
                                                 <p className="font-bold text-[20px]">012345678</p>
                                                 <p className="font-medium text-[18px]">Call Us Anytime</p>
@@ -112,7 +106,7 @@ const Home = () => {
                                         <div className="w-[170px] h-14 hover:bg-[#a77e52] bg-[#CDA274] rounded-2xl justify-center text-center items-center text-white font-['Jost']  mt-8">
                                             <button className="flex items-center font-medium text-lg justify-center p-3">
                                                 Get Free Estimate
-                                                <img src={Vector}
+                                                <img src={images.Vector}
                                                     className="w-3 ml-1"
                                                 ></img>
                                             </button>
@@ -132,7 +126,7 @@ const Home = () => {
                         <div className="w-64 flex-col h-60 bg-white rounded-3xl mt-5">
                             <div className="ml-5 mt-6 mr-5 flex flex-col">
                                 <div className="flex-row flex items-center  ">
-                                    <img src={Photo} className="rounded-full h-14"></img>
+                                    <img src={images.Photo} className="rounded-full h-14"></img>
                                     <div className="font-[DM Serif Display] text-xl leading-6 ml-4 font-normal">
                                         Natasha
                                         <br />
@@ -149,7 +143,7 @@ const Home = () => {
                         <div className="w-64 h-60 bg-white rounded-3xl mt-5">
                             <div className="ml-5 mt-6 mr-5 flex flex-col">
                                 <div className="flex-row flex items-center  ">
-                                    <img src={Photo} className="rounded-full h-14"></img>
+                                    <img src={images.Photo} className="rounded-full h-14"></img>
                                     <div className="font-[DM Serif Display] text-xl leading-6 ml-4 font-normal">
                                         Natasha
                                         <br />
@@ -166,7 +160,7 @@ const Home = () => {
                         <div className="w-64 h-60 bg-white rounded-3xl  mt-5">
                             <div className="ml-5 mt-6 mr-5 flex flex-col">
                                 <div className="flex-row flex items-center  ">
-                                    <img src={Photo} className="rounded-full h-14"></img>
+                                    <img src={images.Photo} className="rounded-full h-14"></img>
                                     <div className="font-[DM Serif Display] text-xl leading-6 ml-4 font-normal">
                                         Natasha
                                         <br />
@@ -184,17 +178,147 @@ const Home = () => {
                     </div>
                 </div>
                 <div className='w-[838px] h-16 mt-32 space-x-5  flex flex-row'>
-                    <img  className='w-1/4 ho' src={Buffer}></img>
-                    <img className='w-1/3' src={Bigcommerce}></img>
-                    <img className='w-1/4' src={Uon}></img>
-                    <img className='w-1/5' src={L4}></img>
+                    <img className='w-1/4 ho' src={images.Buffer}></img>
+                    <img className='w-1/3' src={images.Bigcommerce}></img>
+                    <img className='w-1/4' src={images.Uon}></img>
+                    <img className='w-1/5' src={images.L4}></img>
                 </div>
-                <div id='Follow Projects' className='flex flex-col'>
+                <div id='Follow Projects' className='flex flex-col mt-32 space-y-24'>
+                    <div className='w-[500px] flex flex-col h-44 text-center   ml-[168px] mr-[168px]'>
+                        <p className='font-serif font-medium text-5xl'>
+                            Follow Our Projects
+                        </p>
+                        <p className='font-[Jost] font-normal text-lg mt-5'>
+                            It is a long established fact that a reader will be distracted by the of readable content of page lookings at its layouts points.
+                        </p>
+                    </div>
+                    <div className='flex flex-row space-x-[102px]'>
+                        <div className='w-[368px] h-[358px]'>
+                            <img src={images.P4}>
+                            </img>
+                            <div className='flex flex-row h-16 mt-3  content-center'>
+                                <div>
+                                    <p className='font-serif font-normal text-2xl'>Modern bedroom</p>
+                                    <p className='font-[Jost] font-light text-lg'>Decor / Artchitecture</p>
+                                </div>
+                                <img src={images.Arrow} className='hover:cursor-pointer h-14 w-14 mr-0 ml-auto'></img>
+                            </div>
+                        </div>
+                        <div className=' flex flex-col w-[368px] h-[358px]'>
+                            <img src={images.P2}>
+                            </img>
+                            <div className='flex flex-row h-16 mt-3  content-center'>
+                                <div>
+                                    <p className='font-serif font-normal text-2xl'>Modern bedroom</p>
+                                    <p className='font-[Jost] font-light text-lg'>Decor / Artchitecture</p>
+                                </div>
+                                <img src={images.Arrow} className='h-14 hover:cursor-pointer w-14 mr-0 ml-auto'></img>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='flex flex-row space-x-[102px]'>
+                        <div className='w-[368px] h-[358px]'>
+                            <img src={images.P1}>
+                            </img>
+                            <div className='flex flex-row h-16 mt-3  content-center'>
+                                <div>
+                                    <p className='font-serif font-normal text-2xl'>Modern bedroom</p>
+                                    <p className='font-[Jost] font-light text-lg'>Decor / Artchitecture</p>
+                                </div>
+                                <img src={images.Arrow} className='h-14 hover:cursor-pointer w-14 mr-0 ml-auto'></img>
+                            </div>
+                        </div>
+                        <div className=' flex flex-col w-[368px] h-[358px]'>
+                            <img src={images.P3}>
+                            </img>
+                            <div className='flex flex-row h-16 mt-3  content-center'>
+                                <div>
+                                    <p className='font-serif font-normal text-2xl'>Modern bedroom</p>
+                                    <p className='font-[Jost] font-light text-lg'>Decor / Artchitecture</p>
+                                </div>
+                                <img src={images.Arrow} className='h-14 hover:cursor-pointer w-14 mr-0 ml-auto'></img>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="States" className='w-[760px] h-30 space-x-5 justify-center text-cente flex flex-row mt-40 ml-9  '>
+                    <div className='text-center h-20'>
+                        <p className='font-bold text-[#CDA274] font-serif text-5xl'>12</p>
+                        <p className='font-light  mt-3 font-[Josh] text-base'> Years Of Experiance</p>
+                    </div>
+                    <div
+                        id="LineRoot"
+                        className="border-solid border-r-2 border-[#cda274] w-2 h-16"
+                    />
+                    <div className='text-center h-20'>
+                        <p className='font-bold text-[#CDA274] font-serif text-5xl'>1074</p>
+                        <p className='font-light mt-3  font-[Josh] text-base'> Success Project</p>
+                    </div>
+                    <div
+                        id="LineRoot"
+                        className="border-solid border-r-2 border-[#cda274] w-2 h-16"
+                    />
+                    <div className='text-center h-20'>
+                        <p className='font-bold text-[#CDA274] font-serif text-5xl'>98</p>
+                        <p className='font-light  mt-3 font-[Josh] text-base'> Active Project</p>
+                    </div>
+                    <div
+                        id="LineRoot"
+                        className="border-solid border-r-2 border-[#cda274] w-2 h-16"
+                    />
+                    <div className='text-center h-20'>
+                        <p className='font-bold text-[#CDA274] font-serif text-5xl'>583</p>
+                        <p className='font-light  mt-3 font-[Josh] text-base'> Happy Customers</p>
+                    </div>
+
 
                 </div>
+                <div id="Articles & News">
+                    <div className='w-[500px] flex flex-col h-44 text-center mt-32  ml-[168px] mr-[168px]'>
+                        <p className='font-serif font-medium text-5xl'>
+                            Articles & News
+                        </p>
+                        <p className='font-[Jost] font-normal text-lg mt-5'>
+                            It is a long established fact that a reader will be distracted by the of readable content of a page when lookings at its layouts the points of using.                        </p>
+                    </div>
+                    <div className='w-[838px] h-[380px] flex flex-row space-x-6 '>
+                        <div className='bg-white hover:bg-[#E7E7E7] h-full w-[275px] rounded-t-3xl'>
+                            <img src={images.A1} className='mt-4 ml-4 mr-4 w-[233px] rounded-t-3xl'></img>
+                            <p className='ml-4 mt-4 text-2xl'>Let’s Get Solution For Building Construction Work.</p>
+                            <div className='flex flex-row items-center ml-4 mt-4'>
+                                <p className='font-light text-sm'>26 December,2022</p>
+                                <img src={images.Arrow} className='mr-4 hover:cursor-pointer ml-auto h-8 w-8'></img>
+                            </div>
+                        </div>
+                        <div className='bg-white hover:bg-[#E7E7E7] h-full w-[275px] rounded-t-3xl'>
+                            <img src={images.A2} className='mt-4 ml-4 mr-4 w-[233px] rounded-t-3xl'></img>
+                            <p className='ml-4 mt-4 text-2xl'>Low Cost Latest Invented Interior Designing Ideas.</p>
+                            <div className='flex flex-row items-center ml-4 mt-4'>
+                                <p className='font-light text-sm'>22 November,2023</p>
+                                <img src={images.Arrow} className='mr-4  hover:cursor-pointer ml-auto h-8 w-8'></img>
+                            </div>
+                        </div>
+                        <div className='bg-white hover:bg-[#E7E7E7] h-full flex flex-col w-[275px] rounded-t-3xl'>
+                            <img src={images.A3} className='mt-4 ml-4 mr-4 w-[233px] rounded-t-3xl'></img>
+                            <p className='ml-4 mt-4 text-2xl'>Best For Any Office & Business Interior Solution.</p>
+                            <div className='flex flex-row items-center ml-4 mt-4'>
+                                <p className='font-light text-sm'>4 December,2023</p>
+                                <img src={images.Arrow} className='mr-4 hover:cursor-pointer ml-auto h-8 w-8'></img>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+            
+
         </>
+
     )
 }
 
 export default Home
+
+
+
+
+
