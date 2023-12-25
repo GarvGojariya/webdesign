@@ -31,6 +31,17 @@ import Bedroom4 from './images/Bedroom4.png';
 import Bedroom5 from './images/Bedroom5.png';
 import Bedroom6 from './images/Bedroom6.png';
 import article from './images/article1.png';
+import kitchen from './images/Kitchen.png';
+import Error from './images/Error.png';
+import T1 from './images/T1.jpg';
+import T2 from './images/T2.jpg';
+import T3 from './images/T3.png';
+import T4 from './images/T4.jpg';
+import T5 from './images/T5.jpg';
+import T6 from './images/T6.jpg';
+import T7 from './images/T7.jpg';
+import T8 from './images/T8.jpg';
+
 
 
 
@@ -38,11 +49,12 @@ export const images = {
     Vector,Vectorb,CallIcon,Photo,Buffer,Bigcommerce,Uon,L4,P1,P2,P3,P4,Arrow,A1,A2,A3,ServicesBG,S4
     ,S1,
     S2,
-    S3,
+    S3,kitchen,
     Projectbg,Bedroom1,
     Bedroom2,
     Bedroom3,
     Bedroom4,article,
     Bedroom5,symbol,
-    Bedroom6,SideV,search
+    Bedroom6,SideV,search,
+    Error,T1,T2,T3,T4,T5,T6,T7,T8
 }

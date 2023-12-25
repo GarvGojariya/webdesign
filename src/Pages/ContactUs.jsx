@@ -68,7 +68,7 @@ const ContactUs = () => {
                     </div>
                 </div>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d29762.317241719364!2d72.8093232!3d21.1806494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1703496401189!5m2!1sen!2sin"
-                   className='w-[838px] h-[500px] rounded-xl drop-shadow-lg '
+                    className='w-[838px] h-[500px] rounded-xl drop-shadow-lg '
 
                     allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
                 </iframe>

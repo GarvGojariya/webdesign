@@ -8,11 +8,11 @@ const Projects = () => {
                 <p className='text-center text-5xl  ' > Our Project</p>
             </div>
             <div className='flex flex-col  w-[838px] ml-64 mt-12 place-content-center'>
-                <div className='w-7/12 h-10  flex flex-row space-x-12 font-medium text-lg  text-center border-[#CDA274] border-[1px] self-center '>
-                    <button className='rounded-md hover:bg-[#CDA274] hover:text-white'>Bathroom</button>
-                    <button className='rounded-md hover:bg-[#CDA274] hover:text-white'>Bed Room</button>
-                    <button className='rounded-md hover:bg-[#CDA274] hover:text-white'>Kitchan</button>
-                    <button className='rounded-md hover:bg-[#CDA274] hover:text-white'>Living Area</button>
+                <div className='w-7/12 h-10  flex flex-row rounded-md space-x-8 font-medium text-lg  text-center border-[#CDA274] border-[1px] self-center '>
+                    <button className='rounded-md hover:bg-[#CDA274] active:bg-[#CDA274] w-24 hover:text-white'>Bathroom</button>
+                    <button className='rounded-md hover:bg-[#CDA274] active:bg-[#CDA274] w-24 hover:text-white'>Bed Room</button>
+                    <button className='rounded-md hover:bg-[#CDA274] active:bg-[#CDA274] w-24 hover:text-white'>Kitchan</button>
+                    <button className='rounded-md hover:bg-[#CDA274] active:bg-[#CDA274] w-28 hover:text-white'>Living Area</button>
                 </div>
                 <div id="projects" className='flex mt-16 w-[838px] space-y-20 h-auto flex-col'>
                     <div className='flex flow-row h-[480px]  space-x-[58px] '>
@@ -87,7 +87,7 @@ const Projects = () => {
                     
                 </div>
                 <div>
-                    
+
                 </div>
             </div>
         </>

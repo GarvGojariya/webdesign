@@ -15,6 +15,9 @@ module.exports = {
         'projectbg' : "url('./assts/images/images/Projectbg.png')",
         'articlesbg' : "url('./assts/images/images/Articalesbg.png')",
         'contactbg' : "url('./assts/images/images/contectbg.png')",
+        'blogdetailbg' : "url('./assts/images/images/Blogdetailsbg.png')",
+        'Teambg' : "url('./assts/images/images/Teambg.png')",
+
 
       }
     },
