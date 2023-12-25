@@ -23,7 +23,6 @@ function App() {
     <Route path="/contactus" element={<Layout><ContactUs/></Layout>}/>
     <Route path="/team" element={<Layout><Team/></Layout>}/>
     <Route path="/404" element={<Error/>}/>
-
 </Routes>
 
 </>

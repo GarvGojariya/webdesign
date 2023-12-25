@@ -41,10 +41,6 @@ import T5 from './images/T5.jpg';
 import T6 from './images/T6.jpg';
 import T7 from './images/T7.jpg';
 import T8 from './images/T8.jpg';
-
-
-
-
 export const images = {
     Vector,Vectorb,CallIcon,Photo,Buffer,Bigcommerce,Uon,L4,P1,P2,P3,P4,Arrow,A1,A2,A3,ServicesBG,S4
     ,S1,

@@ -1,12 +1,16 @@
 import React from 'react';
 import { images } from '../assts/images/index';
+import { useNavigate } from 'react-router-dom';
 
 
 const Home = () => {
+    const navigate = useNavigate()
+    const goArticle = () => {
+        navigate("/articales")
+    }
     return (
         <>
-            <div id="peoplethiks" className="w-[838px] h-[470px] justify-center place-content-center ml-64  " >
-
+            <div id="peoplethiks" className="w-[838px] h-auto justify-center place-content-center ml-64  " >
                 <div id="home" className="flex place-content-center  flex-row w-full items-start">
                     <div className="bg-home  bg-no-repeat  h-[500px] w-[838px] bg-cover mt-[20px] rounded-br-[80px] bg-blend-normal flex flex-col gap-6 font-['Inter'] items-start pl-6 py-20">
                         <div className="flex-col">
@@ -33,7 +37,6 @@ const Home = () => {
                     </div>
 
                 </div>
-
                 <div id='work' className="justify-center text-center flex flex-row w-[838px]  mt-10 ">
                     <div className="flex-col w-1/3 ">
                         <div className="font-[DM Serif Display] font-normal text-xl  mt-1text-[#292F36]">
@@ -282,7 +285,7 @@ const Home = () => {
                             It is a long established fact that a reader will be distracted by the of readable content of a page when lookings at its layouts the points of using.                        </p>
                     </div>
                     <div className='w-[838px] h-[380px] flex flex-row space-x-6 '>
-                        <div className='bg-white hover:bg-[#E7E7E7] h-full w-[275px] rounded-t-3xl'>
+                        <div onClick={goArticle} className='bg-white cursor-pointer hover:bg-[#E7E7E7] h-full w-[275px] rounded-t-3xl'>
                             <img src={images.A1} className='mt-4 ml-4 mr-4 w-[233px] rounded-t-3xl'></img>
                             <p className='ml-4 mt-4 text-2xl'>Let’s Get Solution For Building Construction Work.</p>
                             <div className='flex flex-row items-center ml-4 mt-4'>
@@ -290,7 +293,7 @@ const Home = () => {
                                 <img src={images.Vectorb} className='mr-4 hover:cursor-pointer ml-auto h-6 w-4'></img>
                             </div>
                         </div>
-                        <div className='bg-white hover:bg-[#E7E7E7] h-full w-[275px] rounded-t-3xl'>
+                        <div onClick={goArticle} className='bg-white cursor-pointer hover:bg-[#E7E7E7] h-full w-[275px] rounded-t-3xl'>
                             <img src={images.A2} className='mt-4 ml-4 mr-4 w-[233px] rounded-t-3xl'></img>
                             <p className='ml-4 mt-4 text-2xl'>Low Cost Latest Invented Interior Designing Ideas.</p>
                             <div className='flex flex-row items-center ml-4 mt-4'>
@@ -298,7 +301,7 @@ const Home = () => {
                                 <img src={images.Vectorb} className='mr-4  hover:cursor-pointer ml-auto h-6 w-4'></img>
                             </div>
                         </div>
-                        <div className='bg-white hover:bg-[#E7E7E7] h-full flex flex-col w-[275px] rounded-t-3xl'>
+                        <div onClick={goArticle} className='bg-white cursor-pointer hover:bg-[#E7E7E7] h-full flex flex-col w-[275px] rounded-t-3xl'>
                             <img src={images.A3} className='mt-4 ml-4 mr-4 w-[233px] rounded-t-3xl'></img>
                             <p className='ml-4 mt-4 text-2xl'>Best For Any Office & Business Interior Solution.</p>
                             <div className='flex flex-row items-center ml-4 mt-4'>
@@ -309,7 +312,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            
+
 
         </>
 

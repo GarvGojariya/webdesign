@@ -17,8 +17,6 @@ module.exports = {
         'contactbg' : "url('./assts/images/images/contectbg.png')",
         'blogdetailbg' : "url('./assts/images/images/Blogdetailsbg.png')",
         'Teambg' : "url('./assts/images/images/Teambg.png')",
-
-
       }
     },
   },
