@@ -287,7 +287,7 @@ const Home = () => {
                             <p className='ml-4 mt-4 text-2xl'>Let’s Get Solution For Building Construction Work.</p>
                             <div className='flex flex-row items-center ml-4 mt-4'>
                                 <p className='font-light text-sm'>26 December,2022</p>
-                                <img src={images.Arrow} className='mr-4 hover:cursor-pointer ml-auto h-8 w-8'></img>
+                                <img src={images.Vectorb} className='mr-4 hover:cursor-pointer ml-auto h-6 w-4'></img>
                             </div>
                         </div>
                         <div className='bg-white hover:bg-[#E7E7E7] h-full w-[275px] rounded-t-3xl'>
@@ -295,7 +295,7 @@ const Home = () => {
                             <p className='ml-4 mt-4 text-2xl'>Low Cost Latest Invented Interior Designing Ideas.</p>
                             <div className='flex flex-row items-center ml-4 mt-4'>
                                 <p className='font-light text-sm'>22 November,2023</p>
-                                <img src={images.Arrow} className='mr-4  hover:cursor-pointer ml-auto h-8 w-8'></img>
+                                <img src={images.Vectorb} className='mr-4  hover:cursor-pointer ml-auto h-6 w-4'></img>
                             </div>
                         </div>
                         <div className='bg-white hover:bg-[#E7E7E7] h-full flex flex-col w-[275px] rounded-t-3xl'>
@@ -303,7 +303,7 @@ const Home = () => {
                             <p className='ml-4 mt-4 text-2xl'>Best For Any Office & Business Interior Solution.</p>
                             <div className='flex flex-row items-center ml-4 mt-4'>
                                 <p className='font-light text-sm'>4 December,2023</p>
-                                <img src={images.Arrow} className='mr-4 hover:cursor-pointer ml-auto h-8 w-8'></img>
+                                <img src={images.Vectorb} className='mr-4 hover:cursor-pointer ml-auto h-6 w-4'></img>
                             </div>
                         </div>
                     </div>

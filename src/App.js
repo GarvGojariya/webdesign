@@ -4,6 +4,10 @@ import AboutUs from './Pages/AboutUs';
 import Home from './Pages/Home';
 import {Route,Routes} from 'react-router-dom'
 import Services from './Pages/Services';
+import Projects from './Pages/Projects';
+import Articales from './Pages/Articales';
+import BlogDetails from './Pages/BlogDetails';
+import ContactUs from './Pages/ContactUs';
 
 
 function App() {
@@ -12,6 +16,10 @@ function App() {
 <Routes>
     <Route path="/" element={<Layout><Home/></Layout>}/>
     <Route path="/services" element={<Layout><Services/></Layout>}/>
+    <Route path="/projects" element={<Layout><Projects/></Layout>}/>
+    <Route path="/articales" element={<Layout><Articales/></Layout>}/>
+    <Route path="/bloagdetail" element={<Layout><BlogDetails/></Layout>}/>
+    <Route path="/contactus" element={<Layout><ContactUs/></Layout>}/>
 
     <Route path="/aboutus" element={<AboutUs/>}/>
 </Routes>

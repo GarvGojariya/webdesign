@@ -1,7 +1,6 @@
 import React from 'react';
-import Search from '../assts/images/icon/Search.svg';
-import symbol from '../assts/images/icon/symbol.svg';
 import { useNavigate } from 'react-router-dom';
+import { images } from '../assts/images/index';
 
 const Navbar = () => {
 const navigate = useNavigate()
@@ -18,15 +17,15 @@ const goHome = () =>{
 
 }
 const goProjects = () =>{
-    navigate('/')
+    navigate('/projects')
 
 }
 const goBlog = () =>{
-    navigate('/')
+    navigate('/articales')
 
 }
 const goContect = () =>{
-    navigate('/')
+    navigate('/contactus')
 
 }
 
@@ -36,7 +35,7 @@ const goContect = () =>{
             <div className="flex flex-row justify-between w-full font-['DM_Serif_Display'] items-start">
                 <div className="flex flex-row gap-2 w-1/5 items-start">
                     <img
-                        src={symbol}
+                        src={images.symbol}
                         className="w-12"
                     />
                     <div className="text-4xl leading-[50px] text-[#292f36]">SELHONO</div>
@@ -55,7 +54,7 @@ const goContect = () =>{
                         </span>
                     </div>
                     <img
-                        src={Search}
+                        src={images.search}
                         id="Search"
                         className="mt-px ml-3 h-5 w-5"
                     />

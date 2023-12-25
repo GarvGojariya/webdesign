@@ -55,11 +55,61 @@ const Services = () => {
                         It is a long established fact will be distracted.Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                     </p>
                 </div>
-                <div className='w-[838px] h-44'>
-                    <div>
-
+                <div className='w-[838px] flex flex-col space-y-20 h-auto'>
+                    <div className='flex flex-row h-80'>
+                        <img src={images.S4} className='h-80 w-96'></img>
+                        <div className=''>
+                            <div className=' mr-0 ml-80 font-semibold font-[DMSerifDisplay] text-6xl text-[#C76904]'>
+                                01
+                            </div>
+                            <div className='ml-14 mt-24 w-2/3  font-[DMSerifDisplay] '>
+                                <p className='font-medium text-3xl'> Concept & Details </p>
+                                <p className='font-light mt-5 text-base'> It is a long established fact will be distracted. Lorem Ipsum is simply dummy from text of the  and typesetting indufstry. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='flex flex-row h-80'>
+                        <div className=''>
+                            <div className=' font-semibold font-[DMSerifDisplay] text-6xl text-[#C76904]'>
+                                02
+                            </div>
+                            <div className='mt-24 w-2/3 font-[DMSerifDisplay] '>
+                                <p className='font-medium text-3xl'> Idea for Work </p>
+                                <p className='font-light mt-5 text-base'> It is a long established fact  will be distracted.
+                                    Lorem Ipsum is simply dummy from text of the
+                                    and typesetting indufstry. </p>
+                            </div>
+                        </div>
+                        <img src={images.S2} className='h-80 mr-0 ml-auto w-96'></img>
+                    </div>
+                    <div className='flex flex-row h-80'>
+                        <img src={images.S1} className='h-80 w-96'></img>
+                        <div className=''>
+                            <div className=' mr-0 ml-80 font-semibold font-[DMSerifDisplay] text-6xl text-[#C76904]'>
+                                03
+                            </div>
+                            <div className='ml-14 mt-24 w-2/3  font-[DMSerifDisplay] '>
+                                <p className='font-medium text-3xl'> Perfection </p>
+                                <p className='font-light mt-5 text-base'> It is a long established fact will be distracted. Lorem Ipsum is simply dummy from text of the  and typesetting indufstry. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='flex flex-row h-80'>
+                        <div className=''>
+                            <div className=' font-semibold font-[DMSerifDisplay] text-6xl text-[#C76904]'>
+                                04
+                            </div>
+                            <div className='mt-24 w-2/3 font-[DMSerifDisplay] '>
+                                <p className='font-medium text-3xl'> Design </p>
+                                <p className='font-light mt-5 text-base'> It is a long established fact  will be distracted.
+                                    Lorem Ipsum is simply dummy from text of the
+                                    and typesetting indufstry. </p>
+                            </div>
+                        </div>
+                        <img src={images.S3} className='h-80 mr-0 ml-auto w-96'></img>
                     </div>
                 </div>
+                
             </div>
 
 
