@@ -278,35 +278,35 @@ const Home = () => {
                     </div>
                 </div>
                 <div className='flex flex-row mt-14 place-content-center items-center'>
-                    <div id='articles-news' className='w-5/6 md:w-2/3 '>
-                        <p className='font-[DMSerifDisplay] text-center font-normal mt-10 text-4xl'>Articles & News</p>
-                        <div className='h-auto grid grid-cols-3 gap-3'>
-                            <div onClick={goArticle} className='bg-white hover:bg-[#E7E7E7]  cursor-pointer h-full flex flex-col w-auto rounded-t-3xl'>
-                                <img src={images.A1} className='mt-4 ml-4 mr-4 w-auto rounded-t-3xl'></img>
-                                <p className='ml-4 mt-4 text-xs sm:text-lg md:text-2xl'>Let’s Get Solution For Building Construction Work.</p>
-                                <div className='flex flex-row items-center ml-4 mt-4'>
-                                    <p className='font-light text-[9px] md:text-sm'>26 December,2022</p>
-                                    <img src={images.Vectorb} className='mr-4 hover:cursor-pointer ml-auto h-4 w-2 md:w-4'></img>
-                                </div>
+                <div id='articles-news' className='w-5/6 md:w-2/3 '>
+                    <p className='font-[DMSerifDisplay] text-center font-normal mt-10 text-4xl'>Articles & News</p>
+                    <div className='h-auto grid grid-cols-3 gap-3'>
+                    <div onClick={goArticle} className='bg-white hover:bg-[#E7E7E7]  cursor-pointer h-full flex flex-col w-auto rounded-t-3xl'>
+                            <img src={images.A1} className='mt-4 ml-4 mr-4 w-auto rounded-t-3xl'></img>
+                            <p className='ml-4 mt-4 text-xs sm:text-lg md:text-2xl'>Let’s Get Solution For Building Construction Work.</p>
+                            <div className='flex flex-row items-center ml-4 mt-4'>
+                                <p className='font-light text-[9px] md:text-sm'>26 December,2022</p>
+                                <img src={images.Vectorb} className='mr-4 hover:cursor-pointer ml-auto h-4 w-2 md:w-4'></img>
                             </div>
-                            <div className='bg-white hover:bg-[#E7E7E7] cursor-pointer h-full flex flex-col w-auto rounded-t-3xl'>
-                                <img src={images.A2} className='mt-4 ml-4 mr-4 w-auto rounded-t-3xl'></img>
-                                <p className='ml-4 mt-4 text-xs sm:text-lg md:text-2xl'>Low Cost Latest Invented Interior Designing Ideas.</p>
-                                <div className='flex flex-row items-center ml-4 mt-4'>
-                                    <p className='font-light text-[9px] md:text-sm'>22 November,2023</p>
-                                    <img src={images.Vectorb} className='mr-4 hover:cursor-pointer ml-auto h-4 w-2 md:w-4'></img>
-                                </div>
+                        </div>
+                        <div className='bg-white hover:bg-[#E7E7E7] cursor-pointer h-full flex flex-col w-auto rounded-t-3xl'>
+                            <img src={images.A2} className='mt-4 ml-4 mr-4 w-auto rounded-t-3xl'></img>
+                            <p className='ml-4 mt-4 text-xs sm:text-lg md:text-2xl'>Low Cost Latest Invented Interior Designing Ideas.</p>
+                            <div className='flex flex-row items-center ml-4 mt-4'>
+                                <p className='font-light text-[9px] md:text-sm'>22 November,2023</p>
+                                <img src={images.Vectorb} className='mr-4 hover:cursor-pointer ml-auto h-4 w-2 md:w-4'></img>
                             </div>
-                            <div className='bg-white hover:bg-[#E7E7E7] cursor-pointer h-full flex flex-col w-auto rounded-t-3xl'>
-                                <img src={images.A3} className='mt-4 ml-4 mr-4 w-auto rounded-t-3xl'></img>
-                                <p className='ml-4 mt-4 text-xs sm:text-lg md:text-2xl'>Best For Any Office & Business Interior Solution.</p>
-                                <div className='flex flex-row items-center ml-4 mt-4'>
-                                    <p className='font-light text-[9px] md:text-sm'>4 December,2023</p>
-                                    <img src={images.Vectorb} className='mr-4 hover:cursor-pointer ml-auto h-4 w-2 md:w-4'></img>
-                                </div>
+                        </div>
+                        <div className='bg-white hover:bg-[#E7E7E7] cursor-pointer h-full flex flex-col w-auto rounded-t-3xl'>
+                            <img src={images.A3} className='mt-4 ml-4 mr-4 w-auto rounded-t-3xl'></img>
+                            <p className='ml-4 mt-4 text-xs sm:text-lg md:text-2xl'>Best For Any Office & Business Interior Solution.</p>
+                            <div className='flex flex-row items-center ml-4 mt-4'>
+                                <p className='font-light text-[9px] md:text-sm'>4 December,2023</p>
+                                <img src={images.Vectorb} className='mr-4 hover:cursor-pointer ml-auto h-4 w-2 md:w-4'></img>
                             </div>
                         </div>
                     </div>
+                </div>
                 </div>
             </div>
 

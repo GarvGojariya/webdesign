@@ -10,8 +10,8 @@ const Footer = () => {
   return (
     <>
       <div className=' min-w-full items-center flex justify-center place-content-center '>
-        <div className=' w-full md:w-2/3 h-auto mt-10 ml-10 md:ml-0 place-content-start md:place-content-center md:space-x-3 flex flex-col flex-wrap md:flex-row space-y-2'>
-          <div className='flex flex-col w-1/3'>
+        <div className=' w-full md:w-2/3 h-auto mt-10 ml-10 md:ml-0 justify-center place-content-center gap-4 grid grid-cols-4'>
+          <div className='flex flex-col w-auto'>
             <div className="flex flex-row gap-2 w-1/5 items-center">
               <img
                 src={images.symbol}
@@ -35,7 +35,7 @@ const Footer = () => {
               </svg>
             </div>
           </div>
-          <div className='flex flex-col text-left  space-y-2'>
+          <div className='flex flex-col text-left'>
             <p className='font-medium text-xl '>Pages</p>
             <p className='font-normal text-base cursor-pointer'>About Us </p>
             <p className='font-normal text-base cursor-pointer'>Our Projects</p>
@@ -43,7 +43,7 @@ const Footer = () => {
             <p className='font-normal text-base cursor-pointer'> Contact Us</p>
             <p className='font-normal text-base cursor-pointer'> Services</p>
           </div>
-          <div className='flex flex-col text-left  space-y-2'>
+          <div className='flex flex-col text-left'>
             <p className='font-medium text-xl '>Services</p>
             <p className='font-normal text-base cursor-pointer'>Kitchan  </p>
             <p className='font-normal text-base cursor-pointer'>Living Area </p>
@@ -51,11 +51,11 @@ const Footer = () => {
             <p className='font-normal text-base cursor-pointer'> Dinning Hall</p>
             <p className='font-normal text-base cursor-pointer'> Bedroom</p>
           </div>
-          <div className='flex flex-col text-left w-1/3  space-y-2'>
+          <div className='flex flex-col text-left w-1/3'>
             <p className='font-medium text-xl'>Contact</p>
             <p className='font-normal text-base'>55 East Birchwood Ave. Brooklyn, <br />New York 1120</p>
             <p className='font-normal text-base'>contact@selhono.com</p>
-            <p className='font-normal text-base'>(123) 456 - 7890</p>
+            <p className='font-normal text-base'>+1-123456789</p>
           </div>
         </div>
       </div>

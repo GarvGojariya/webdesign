@@ -59,7 +59,7 @@ const Services = () => {
                                 <div className=' font-semibold font-[DMSerifDisplay] absolute left-0 text-3xl sm:text-4xl md:text-6xl text-[#C76904]'>
                                     01
                                 </div>
-                                <div className='md:mt-24 md:text-left text-center  justify-center w-3/4 font-[DMSerifDisplay] '>
+                                <div className='md:mt-24 md:text-left text-end  justify-end w-3/4 font-[DMSerifDisplay] '>
                                     <p className='font-medium text-3xl'> Concept & Details </p>
                                     <p className='font-light hidden md:block mt-5 text-base'> It is a long established fact  will be distracted.
                                         Lorem Ipsum is simply dummy from text of the

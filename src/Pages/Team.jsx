@@ -5,13 +5,13 @@ const Team = () => {
     return (
         <>
             <div className='bg-Teambg w-full flex justify-center place-items-center  bg-cover h-52 mt-10'>
-                <p className='text-center text-white text-7xl ' >Team</p>
+                <p className='text-center text-white text-7xl' >Team</p>
             </div>
-            <div className=" max-w-full md:w-[838px]  h-auto justify-center flex-wrap mt-20 place-content-center space-y-20 flex flex-col ml-64">
-                <div className='flex flex-row flex-wrap space-x-4 h-auto'>
-                    <div className='flex flex-col  w-1/4 space-x-7   '>
+            <div className=" w-full flex mt-10 h-auto place-content-center items-center">
+                <div className='w-2/3 h-auto place-content-center grid justify-center grid-cols-3 sm:grid-cols-4 gap-5'>
+                    <div className='flex flex-col h-auto'>
                         <img src={images.T1} className='rounded-3xl'></img>
-                        <p className='font-medium text-lg mt-2'>Alex Johnson </p> <p className='text-sm'>Design, Australia</p>
+                        <p className='font-medium sm:text-base text-sm md:text-lg mt-2'>Alex Johnson </p> <p className='sm:text-sm text-xs md:text-base'>Design, Australia</p>
                         <div className='flex-row  mt-3  space-x-7 flex'>
                             <svg width="11" height="19" viewBox="0 0 11 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M9.53622 10.8407L10.0284 7.60632H6.8995V5.49695C6.8995 4.58289 7.32137 3.73914 8.72762 3.73914H10.169V0.961792C10.169 0.961792 8.86825 0.715698 7.63778 0.715698C5.07137 0.715698 3.38387 2.29773 3.38387 5.11023V7.60632H0.501062V10.8407H3.38387V18.7157H6.8995V10.8407H9.53622Z" fill="#292F36" />
@@ -21,9 +21,9 @@ const Team = () => {
                             </svg>
                         </div>
                     </div>
-                    <div className='flex flex-col  w-1/4 space-x-7 h-80  '>
+                    <div className='flex flex-col h-auto  '>
                         <img src={images.T2} className='rounded-3xl'></img>
-                        <p className='font-medium text-lg mt-2'>Nattasha Julie </p> <p className='text-sm'>Design, Australia</p>
+                        <p className='font-medium sm:text-base text-sm md:text-lg mt-2'>Nattasha Julie </p> <p className='sm:text-sm text-xs md:text-base'>Design, Australia</p>
                         <div className='flex-row  mt-3  space-x-7 flex'>
                             <svg width="11" height="19" viewBox="0 0 11 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M9.53622 10.8407L10.0284 7.60632H6.8995V5.49695C6.8995 4.58289 7.32137 3.73914 8.72762 3.73914H10.169V0.961792C10.169 0.961792 8.86825 0.715698 7.63778 0.715698C5.07137 0.715698 3.38387 2.29773 3.38387 5.11023V7.60632H0.501062V10.8407H3.38387V18.7157H6.8995V10.8407H9.53622Z" fill="#292F36" />
@@ -33,9 +33,9 @@ const Team = () => {
                             </svg>
                         </div>
                     </div>
-                    <div className='flex flex-col  w-1/4 space-x-7 h-80  '>
+                    <div className='flex flex-col h-auto  '>
                         <img src={images.T3} className='rounded-3xl'></img>
-                        <p className='font-medium text-lg mt-2'>John Smith </p> <p className='text-sm'>Design, Australia</p>
+                        <p className='font-medium sm:text-base text-sm md:text-lg mt-2'>Nattasha Julie </p> <p className='sm:text-sm text-xs md:text-base'>Design, Australia</p>
                         <div className='flex-row  mt-3  space-x-7 flex'>
                             <svg width="11" height="19" viewBox="0 0 11 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M9.53622 10.8407L10.0284 7.60632H6.8995V5.49695C6.8995 4.58289 7.32137 3.73914 8.72762 3.73914H10.169V0.961792C10.169 0.961792 8.86825 0.715698 7.63778 0.715698C5.07137 0.715698 3.38387 2.29773 3.38387 5.11023V7.60632H0.501062V10.8407H3.38387V18.7157H6.8995V10.8407H9.53622Z" fill="#292F36" />
@@ -45,9 +45,9 @@ const Team = () => {
                             </svg>
                         </div>
                     </div>
-                    <div className='flex flex-col  w-1/4 space-x-7 h-80  '>
+                    <div className='flex flex-col h-auto'>
                         <img src={images.T4} className='rounded-3xl'></img>
-                        <p className='font-medium text-lg mt-2'>Nora Owen </p> <p className='text-sm'>Design, Australia</p>
+                        <p className='font-medium sm:text-base text-sm md:text-lg mt-2'>Nora Owen </p> <p className='sm:text-sm text-xs md:text-base'>Design, Australia</p>
                         <div className='flex-row  mt-3  space-x-7 flex'>
                             <svg width="11" height="19" viewBox="0 0 11 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M9.53622 10.8407L10.0284 7.60632H6.8995V5.49695C6.8995 4.58289 7.32137 3.73914 8.72762 3.73914H10.169V0.961792C10.169 0.961792 8.86825 0.715698 7.63778 0.715698C5.07137 0.715698 3.38387 2.29773 3.38387 5.11023V7.60632H0.501062V10.8407H3.38387V18.7157H6.8995V10.8407H9.53622Z" fill="#292F36" />
@@ -57,13 +57,9 @@ const Team = () => {
                             </svg>
                         </div>
                     </div>
-
-
-                </div>
-                <div className='flex flex-row  space-x-4 '>
-                    <div className='flex flex-col   w-1/4 space-x-7 h-96  '>
+                    <div className='flex flex-col h-auto'>
                         <img src={images.T5} className='rounded-3xl'></img>
-                        <p className='font-medium text-lg mt-2'>Alex Johnson </p> <p className='text-sm'>Design, Australia</p>
+                        <p className='font-medium sm:text-base text-sm md:text-lg mt-2'>Alex Johnson </p> <p className='sm:text-sm text-xs md:text-base'>Design, Australia</p>
                         <div className='flex-row  mt-3  space-x-7 flex'>
                             <svg width="11" height="19" viewBox="0 0 11 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M9.53622 10.8407L10.0284 7.60632H6.8995V5.49695C6.8995 4.58289 7.32137 3.73914 8.72762 3.73914H10.169V0.961792C10.169 0.961792 8.86825 0.715698 7.63778 0.715698C5.07137 0.715698 3.38387 2.29773 3.38387 5.11023V7.60632H0.501062V10.8407H3.38387V18.7157H6.8995V10.8407H9.53622Z" fill="#292F36" />
@@ -73,9 +69,9 @@ const Team = () => {
                             </svg>
                         </div>
                     </div>
-                    <div className='flex flex-col  w-1/4 space-x-7 h-80  '>
+                    <div className='flex flex-col h-auto'>
                         <img src={images.T6} className='rounded-3xl'></img>
-                        <p className='font-medium text-lg mt-2'>Nattasha Julie </p> <p className='text-sm'>Design, Australia</p>
+                        <p className='font-medium sm:text-base text-sm md:text-lg mt-2'>Nattasha Julie </p> <p className='sm:text-sm text-xs md:text-base'>Design, Australia</p>
                         <div className='flex-row  mt-3  space-x-7 flex'>
                             <svg width="11" height="19" viewBox="0 0 11 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M9.53622 10.8407L10.0284 7.60632H6.8995V5.49695C6.8995 4.58289 7.32137 3.73914 8.72762 3.73914H10.169V0.961792C10.169 0.961792 8.86825 0.715698 7.63778 0.715698C5.07137 0.715698 3.38387 2.29773 3.38387 5.11023V7.60632H0.501062V10.8407H3.38387V18.7157H6.8995V10.8407H9.53622Z" fill="#292F36" />
@@ -85,9 +81,9 @@ const Team = () => {
                             </svg>
                         </div>
                     </div>
-                    <div className='flex flex-col  w-1/4 space-x-7 h-80  '>
+                    <div className='flex flex-col h-auto  '>
                         <img src={images.T7} className='rounded-3xl'></img>
-                        <p className='font-medium text-lg mt-2'>John Smith </p> <p className='text-sm'>Design, Australia</p>
+                        <p className='font-medium sm:text-base text-sm md:text-lg mt-2'>Nattasha Julie </p> <p className='sm:text-sm text-xs md:text-base'>Design, Australia</p>
                         <div className='flex-row  mt-3  space-x-7 flex'>
                             <svg width="11" height="19" viewBox="0 0 11 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M9.53622 10.8407L10.0284 7.60632H6.8995V5.49695C6.8995 4.58289 7.32137 3.73914 8.72762 3.73914H10.169V0.961792C10.169 0.961792 8.86825 0.715698 7.63778 0.715698C5.07137 0.715698 3.38387 2.29773 3.38387 5.11023V7.60632H0.501062V10.8407H3.38387V18.7157H6.8995V10.8407H9.53622Z" fill="#292F36" />
@@ -97,9 +93,9 @@ const Team = () => {
                             </svg>
                         </div>
                     </div>
-                    <div className='flex flex-col  w-1/4 space-x-7 h-80  '>
+                    <div className='flex flex-col h-auto'>
                         <img src={images.T8} className='rounded-3xl'></img>
-                        <p className='font-medium text-lg mt-2'>Nora Owen </p> <p className='text-sm'>Design, Australia</p>
+                        <p className='font-medium sm:text-base text-sm md:text-lg mt-2'>Nora Owen </p> <p className='sm:text-sm text-xs md:text-base'>Design, Australia</p>
                         <div className='flex-row  mt-3  space-x-7 flex'>
                             <svg width="11" height="19" viewBox="0 0 11 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M9.53622 10.8407L10.0284 7.60632H6.8995V5.49695C6.8995 4.58289 7.32137 3.73914 8.72762 3.73914H10.169V0.961792C10.169 0.961792 8.86825 0.715698 7.63778 0.715698C5.07137 0.715698 3.38387 2.29773 3.38387 5.11023V7.60632H0.501062V10.8407H3.38387V18.7157H6.8995V10.8407H9.53622Z" fill="#292F36" />

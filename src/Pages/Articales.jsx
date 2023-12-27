@@ -12,7 +12,7 @@ const Articales = () => {
             <div className='bg-articlesbg w-full flex justify-center place-items-center  bg-cover h-52 mt-10'>
                 <p className='text-center text-5xl text-white font-[DMSerifDisplay] ' > Articles& News</p>
             </div>
-            <div className=' w-full h-auto mt-10 place-content-center items-center flex flex-col'>
+            <div className='w-full h-auto mt-10 place-content-center items-center flex flex-col'>
                 <div id='searchbox' className='self-center flex flex-row items-center w-3/4 sm:w-auto rounded-lg bg-[#ebd7c4] sm:h-8  md:h-10'>
                     <input type='search' placeholder=' Search...' className='focus:outline-none focus:ring focus:ring-[#CDA274]  place-items-center placeholder-[#CDA274] cursor-text  w-[500px] h-max rounded-lg  bg-[#ebd7c4]'>
                     </input>
