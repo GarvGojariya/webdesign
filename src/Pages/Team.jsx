@@ -7,9 +7,9 @@ const Team = () => {
             <div className='bg-Teambg w-full flex justify-center place-items-center  bg-cover h-52 mt-10'>
                 <p className='text-center text-white text-7xl ' >Team</p>
             </div>
-            <div className="w-[838px] h-auto justify-center mt-20 place-content-center space-y-12 flex flex-col ml-64">
-                <div className='flex flex-row space-x-4 '>
-                    <div className='flex flex-col  w-1/4 space-x-7 h-80  '>
+            <div className=" max-w-full md:w-[838px]  h-auto justify-center flex-wrap mt-20 place-content-center space-y-20 flex flex-col ml-64">
+                <div className='flex flex-row flex-wrap space-x-4 h-auto'>
+                    <div className='flex flex-col  w-1/4 space-x-7   '>
                         <img src={images.T1} className='rounded-3xl'></img>
                         <p className='font-medium text-lg mt-2'>Alex Johnson </p> <p className='text-sm'>Design, Australia</p>
                         <div className='flex-row  mt-3  space-x-7 flex'>
@@ -60,8 +60,8 @@ const Team = () => {
 
 
                 </div>
-                <div className='flex flex-row space-x-4 '>
-                    <div className='flex flex-col  w-1/4 space-x-7 h-80  '>
+                <div className='flex flex-row  space-x-4 '>
+                    <div className='flex flex-col   w-1/4 space-x-7 h-96  '>
                         <img src={images.T5} className='rounded-3xl'></img>
                         <p className='font-medium text-lg mt-2'>Alex Johnson </p> <p className='text-sm'>Design, Australia</p>
                         <div className='flex-row  mt-3  space-x-7 flex'>
